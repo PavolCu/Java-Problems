@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: java.util.AbstractList&lt;java.io.Serializable&gt;
+  - text: java.util.AbstractList&lt;?&gt;
+  - text: class Application
+  - text: Runtime exception
+  - text: java.util.AbstractList
+  - text: class Object
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2586#comment
+status: Solved
+record: -1
+custom_name: The result of the code
+local_check: false

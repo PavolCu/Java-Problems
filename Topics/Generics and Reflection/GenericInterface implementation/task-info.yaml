@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It's possible to get GenericInterface type parameter by Class.getInterfaces()
+  - text: It's possible to get GenericInterface type parameter by Class.getGenericInterfaces()
+  - text: It's impossible to get GenericInterface type at runtime due to type erasure
+  - text: It's possible to get GenericInterface type parameter by Class.getGenericSuperclass()
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2592#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Comparator vs Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Comparing numbers" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Comparing values" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Multiple fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Non-abstract methods" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Reverse sorting" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/List public fields" />
+            <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/Modifiers support" />
+            <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/How to declare a generic method" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Print content" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/The first element" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/The usage of parameters" />
+            <option value="$PROJECT_DIR$/Topics/Generic methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/Find a list parameter type" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/GenericInterface implementation" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/How many type variables defined" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code (1)" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Reflection/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Convert numbers to days" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/LocalDate class" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Changing the account balance" />
+            <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Field value" />
+            <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Reflection invocation" />
+            <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/The result of the code execution" />
+            <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Class object test" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Code output" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Getting Superclass" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Select statements" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/forName method syntax" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/getClass method" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/myClass variable" />
+            <option value="$PROJECT_DIR$/Topics/Type Bounds/Multiple type bounds" />
+            <option value="$PROJECT_DIR$/Topics/Type Bounds/Number holder" />
+            <option value="$PROJECT_DIR$/Topics/Type Bounds/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Extends or super" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Find an equivalent" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Keywords" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Pets in boxes" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Subtype relation" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/The result of the code" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Wildcards/Upper-bound" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

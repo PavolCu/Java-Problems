@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Class voidClass = void.class;
+  - text: Class intClass = int.class;
+  - text: Class objectClass = Object.class;
+  - text: Class integerClass = Integer.class;
+  - text: Class stringClass = String.class;
+  - text: Class nullClass = null.class;
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2935#comment
+status: Solved
+record: -1
+local_check: false

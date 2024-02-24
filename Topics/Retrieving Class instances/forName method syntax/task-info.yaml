@@ -1,0 +1,37 @@
+type: matching
+captions:
+  - "double[].class"
+  - "Object[].class"
+  - "int[].class"
+  - "long[].class"
+  - "boolean[].class"
+  - "byte[].class"
+options:
+  - "Class.forName(&quot;[B&quot;)"
+  - "Class.forName(&quot;[Z&quot;)"
+  - "Class.forName(&quot;[D&quot;)"
+  - "Class.forName(&quot;[Ljava.lang.Object;&quot;)"
+  - "Class.forName(&quot;[I&quot;)"
+  - "Class.forName(&quot;[J&quot;)"
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2933#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5

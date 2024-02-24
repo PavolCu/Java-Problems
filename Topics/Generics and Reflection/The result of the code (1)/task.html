@@ -1,0 +1,22 @@
+<h2>The result of the code</h2>
+<div class="step-text">
+<p>What will be the result of the following code compilation and execution:</p>
+<pre><code class="language-java">import java.io.Serializable;
+import java.util.AbstractList;
+
+public class Application extends AbstractList&lt;Serializable&gt; {
+    public static void main(String[] args) {
+        System.out.println(new Application().getClass().getGenericSuperclass());
+    }
+
+    @Override
+    public Serializable get(int index) {
+        return null;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+}</code></pre>
+</div>
