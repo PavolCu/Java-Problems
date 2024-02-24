@@ -9,10 +9,10 @@ files:
           }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2850#comment
+feedback_link: https://hyperskill.org/learn/step/2844#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: "Sat, 24 Feb 2024 21:01:31 UTC"
+  time: "Sat, 24 Feb 2024 21:11:54 UTC"
 record: -1
 submission_language: java17
