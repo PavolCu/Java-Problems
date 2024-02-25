@@ -5,3 +5,5 @@ content:
   - Seconds since start of a day
   - Millisecond precision
   - Seconds between two time points
+  - Return time without seconds
+  - Working with time

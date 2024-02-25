@@ -41,11 +41,16 @@
             <option value="$PROJECT_DIR$/Topics/LocalDate/The n-th day from the end of a month" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Working with dates" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Add days and subtract hours" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/LocalDateTime class" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Millisecond precision" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Return time without seconds" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Same time" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Seconds between two time points" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Seconds since start of a day" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalTime/Working with time" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Changing the account balance" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Field value" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Reflection invocation" />
