@@ -4,3 +4,4 @@ content:
   - Get hour
   - Seconds since start of a day
   - Millisecond precision
+  - Seconds between two time points
