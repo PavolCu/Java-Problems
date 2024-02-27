@@ -32,6 +32,8 @@
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code" />
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code (1)" />
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Instant/The Instant to a long" />
+            <option value="$PROJECT_DIR$/Topics/Instant/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/30 years before and after" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Convert numbers to days" />
@@ -47,6 +49,7 @@
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/LocalDateTime class" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Same date and time" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/The passed hours since the beginning of year" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Theory" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Millisecond precision" />
             <option value="$PROJECT_DIR$/Topics/LocalTime/Return time without seconds" />
@@ -60,6 +63,10 @@
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Reflection invocation" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/The result of the code execution" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration classes/The correct Duration unit" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration classes/The correct Period unit" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration classes/The difference between Duration units" />
+            <option value="$PROJECT_DIR$/Topics/Period and Duration classes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Class object test" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Code output" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Getting Superclass" />

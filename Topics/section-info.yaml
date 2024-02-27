@@ -11,3 +11,4 @@ content:
   - LocalTime
   - LocalDateTime
   - Period and Duration classes
+  - Instant
