@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // write your code
+        IPhone154.PrototypeIPhone154 prototypeIPhone154 = new IPhone154.PrototypeIPhone154();
+
+        prototypeIPhone154.printMinCost();
     }
 }
 
