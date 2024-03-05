@@ -5,7 +5,6 @@ class ClockFactory {
     private boolean produceToyClock;
 
     public ClockFactory(boolean produceToyClock) {
-
         this.produceToyClock = produceToyClock;
     }
 
