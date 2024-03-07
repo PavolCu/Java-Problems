@@ -12,9 +12,7 @@ abstract class Career {
     }
 
     // write your code here ...
-    void work() {
-        System.out.println("Work as");
-    }
+    abstract void work();
 
     // Do not change the code below
     public void dream() {
@@ -31,7 +29,7 @@ abstract class Career {
 }
 
 class Engineer extends Career {
-   // write your code here ...
+    // write your code here ...
     @Override
     void work() {
         System.out.println("Work as a Full Stack Engineer");
@@ -40,7 +38,7 @@ class Engineer extends Career {
 }
 
 class DataScientist extends Career {
-   // write your code here ...
+    // write your code here ...
     @Override
     void work() {
         System.out.println("Work as a Data Scientist");
