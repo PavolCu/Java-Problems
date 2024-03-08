@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
+  - text: encapsulates a request as an object
+  - text: processes a request in a sequence of handlers
   - text: "defines the skeleton of an algorithm in an operation, deferring some steps\
     \ to subclasses"
-  - text: encapsulates a request as an object
   - text: ensures the class only has a limited number of instances
-  - text: processes a request in a sequence of handlers
 files:
   - name: src/Task.java
     visible: true
@@ -19,7 +19,7 @@ files:
       }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5156#comment
-status: Unchecked
+status: Solved
 record: -1
 custom_name: What does it do?
 local_check: false
