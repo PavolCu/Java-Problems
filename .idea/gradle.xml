@@ -78,6 +78,10 @@
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Reflection invocation" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/The result of the code execution" />
             <option value="$PROJECT_DIR$/Topics/Manipulating fields and methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Memento/Downsides" />
+            <option value="$PROJECT_DIR$/Topics/Memento/Mutations" />
+            <option value="$PROJECT_DIR$/Topics/Memento/Roll back" />
+            <option value="$PROJECT_DIR$/Topics/Memento/Theory" />
             <option value="$PROJECT_DIR$/Topics/Nested classes/Create class" />
             <option value="$PROJECT_DIR$/Topics/Nested classes/Create prototype" />
             <option value="$PROJECT_DIR$/Topics/Nested classes/Find min and max" />

@@ -16,3 +16,4 @@ content:
   - Nested classes
   - Encapsulating object creation
   - Template method
+  - Memento
