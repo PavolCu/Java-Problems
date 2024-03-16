@@ -3,3 +3,5 @@ content:
   - Roll back
   - Downsides
   - Mutations
+  - Components
+  - Undo and redo
