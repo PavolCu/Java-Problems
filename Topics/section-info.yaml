@@ -20,3 +20,4 @@ content:
   - Factory method
   - Abstract factory
   - Command
+  - Singleton
