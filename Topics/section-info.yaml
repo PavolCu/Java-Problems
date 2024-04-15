@@ -21,3 +21,4 @@ content:
   - Abstract factory
   - Command
   - Singleton
+  - One-line condition with ternary operator
