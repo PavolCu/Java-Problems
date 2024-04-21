@@ -3,3 +3,6 @@ content:
   - List public fields
   - Modifiers support
   - The public static final modifier as integer
+  - Storing modifiers
+  - Getting modifiers
+  - Count public methods
