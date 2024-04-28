@@ -2,7 +2,7 @@
 <div class="step-text">
 <p>Time is a fundamental notion not only in human life but in programming as well. Of course, Java provides some tools for working with temporal entities. We'll start with such <a class="theory-lookup" href="/learn/step/21233" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a unit is a piece of code that performs a single task or a unit of work. | In the context of this text, it typically refers to a unit of time, which can be smaller than a day. Java provides different units such as seconds, nanoseconds, days, months, years, and so on. These units can be used to represent a moment on a timeline or a calendar date and daytime combination. It is important to note that some units store their value in seconds and nanoseconds, while others store it as a pair of year, month, and day objects.">units</a> of time measurement as days (or dates).</p>
 <p>The class <code class="language-java">LocalDate</code> represents a single date in a <strong>YYYY-MM-dd</strong> format, such as <code class="language-java">2017-11-25</code> or <code class="language-java">2025-01-23</code> . It could be used to store any date: from your birthday to the day of the Apocalypse.</p>
-<p>The class belongs to the <code class="language-java">java.time</code> <a class="theory-lookup" href="/learn/step/3621" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a package is a mechanism for organizing and structuring related classes and interfaces in a Java application. | They provide a way to group related classes together, making it easier to locate a specific class and avoiding naming conflicts by including the package path in the full class name. Package names are typically in lowercase and can contain other packages. They also allow controlling access to classes and members using access modifiers.">package</a>.</p>
+<p>The class belongs to the <code class="language-java">java.time</code> package.</p>
 <h5 id="creating-localdate-and-current-time">Creating LocalDate and current time</h5>
 <p>After importing the class, an instance storing the current date can be created as below:</p>
 <pre><code class="language-java">LocalDate now = LocalDate.now();</code></pre>
@@ -30,7 +30,7 @@ int month = date.getMonthValue(); // 11
 int dayOfMonth = date.getDayOfMonth(); // 25
 int dayOfYear = date.getDayOfYear();  // 329
 </code></pre>
-<p>It is also possible to get a <a class="theory-lookup" href="/learn/step/3594" rel="noopener noreferrer nofollow" target="_blank" title="In Java, 'length' is an attribute of array and string that returns the number of elements or characters in the array or string, respectively. | It is a read-only property, meaning it can only be used to retrieve the value and cannot be set or modified. The 'length' attribute is automatically set when an array or string is created and initialized, and it provides a convenient way to determine the size of the array or string without having to manually count the elements or characters. For instance, the length of the string Hello is 5.">length</a> of the year and month:</p>
+<p>It is also possible to get a length of the year and month:</p>
 <pre><code class="language-java">int lenOfYear = date.lengthOfYear(); // 365
 int lenOfMonth = date.lengthOfMonth(); // 30</code></pre>
 <h5 id="arithmetic-methods-of-localdate">Arithmetic methods of LocalDate</h5>
