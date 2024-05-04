@@ -5,3 +5,5 @@ content:
   - Disjunct all
   - Composing string functions
   - What function is executed first
+  - How to compose predicates together
+  - The chain of responsibility
