@@ -53,6 +53,14 @@
             <option value="$PROJECT_DIR$/Topics/Factory method/The purpose of the pattern" />
             <option value="$PROJECT_DIR$/Topics/Factory method/Theory" />
             <option value="$PROJECT_DIR$/Topics/Factory method/Where to use the pattern" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/Determine the result" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/Disjunct all" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/How to compose predicates together" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/The chain of responsibility" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Function composition/What function is executed first" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Print elements of a stream" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Theory" />
             <option value="$PROJECT_DIR$/Topics/Generic methods/How to declare a generic method" />
             <option value="$PROJECT_DIR$/Topics/Generic methods/Print content" />
             <option value="$PROJECT_DIR$/Topics/Generic methods/The first element" />

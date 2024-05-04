@@ -25,3 +25,4 @@ content:
   - Standard functional interfaces
   - Optional
   - Function composition
+  - Functional data processing with streams
