@@ -24,3 +24,4 @@ content:
   - One-line condition with ternary operator
   - Standard functional interfaces
   - Optional
+  - Function composition

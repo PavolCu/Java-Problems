@@ -1,6 +1,21 @@
 <h2>Template method</h2>
 <div class="step-text">
-<h5 id="design-problem">Design problem</h5><p><strong>Template Method</strong> is a <a href="/learn/step/7762" rel="noopener noreferrer nofollow" target="_blank">behavioral pattern</a> that describes the common algorithm while subclasses implement steps of this <a href="/learn/step/3556" rel="noopener noreferrer nofollow" target="_blank">algorithm</a>. This pattern lets the subclasses implement the steps of the algorithm without changing that algorithm's skeleton.</p><p>As an example of the <strong>Template Method</strong>, we will consider the working process. The algorithm contains three steps: go to work, work, go home. It's a very true-to-life example indeed.</p><p>Suppose all workers go to work and go home in an absolutely identical manner. The working routine, however, is different and depends on the worker’s qualification. We can choose any profession, but the algorithm remains the same.</p><h5 id="template-method-pattern">Template method pattern</h5><p>An abstract <a href="/learn/step/3583" rel="noopener noreferrer nofollow" target="_blank">base class</a> implements standard algorithm steps and can provide a default implementation for custom steps. Specific subclasses provide concrete implementation for each of these steps.</p><p>Template Method has the following <a href="/learn/step/6001" rel="noopener noreferrer nofollow" target="_blank">components</a>:</p><ul><li><p><strong>Abstract Class</strong> describes primitive operations and the template method itself which calls primitive <a href="/learn/step/17081" rel="noopener noreferrer nofollow" target="_blank">operations</a>;</p></li><li><p><strong>Concrete Class</strong> implements the primitive operations.</p></li></ul><p></p><p style="text-align: center;"><picture><img alt="Template method pattern" height="378" src="https://ucarecdn.com/b7fd06ca-19e2-449f-aaa1-8aca2a787ddf/" width="589"/></picture></p><p></p><p>Template Method is quite popular in Java frameworks. Here are a few examples where it is used in core Java libraries:</p><ul><li><p>All non-abstract methods of <code class="language-java">java.io.InputStream</code>, <code class="language-java">java.io.OutputStream</code>, <code class="language-java">java.io.Reader</code> and <code class="language-java">java.io.Writer</code></p></li><li><p>All non-abstract methods of <code class="language-java">java.util.AbstractList</code>, <code class="language-java">java.util.AbstractSet</code> and <code class="language-java">java.util.AbstractMap</code></p></li></ul><h5 id="practice-example">Practice example</h5><p>To demonstrate how the Template Method works, let's create an abstract class <code class="language-java">Worker</code> that describes the working routine. Then, let's add the template method:</p><pre><code class="language-java">public abstract class Worker {
+<h5 id="design-problem">Design problem</h5>
+<p><strong>Template Method</strong> is a <a href="/learn/step/7762" rel="noopener noreferrer nofollow" target="_blank">behavioral pattern</a> that describes the common algorithm while subclasses implement steps of this <a href="/learn/step/3556" rel="noopener noreferrer nofollow" target="_blank">algorithm</a>. This pattern lets the subclasses implement the steps of the <a class="theory-lookup not-relevant" href="/learn/step/0" rel="noopener noreferrer nofollow" target="_blank" title="In Java, an algorithm is a set of instructions, written in the form of code, to solve a specific problem or perform a particular task. | The Strategy pattern in Java encapsulates a family of algorithms, each in a separate class, making them interchangeable within that family. This allows for easier addition of new algorithms and more concise code. The algorithm executed in different branches are moved into their own class, and a common interface is determined for a family of algorithms, which should contain one or more abstract methods.">algorithm</a> without changing that algorithm's skeleton.</p>
+<p>As an example of the <strong>Template Method</strong>, we will consider the working process. The algorithm contains three steps: go to work, work, go home. It's a very true-to-life example indeed.</p>
+<p>Suppose all workers go to work and go home in an absolutely identical manner. The working routine, however, is different and depends on the worker’s qualification. We can choose any profession, but the algorithm remains the same.</p>
+<h5 id="template-method-pattern">Template method pattern</h5>
+<p>An abstract <a href="/learn/step/3583" rel="noopener noreferrer nofollow" target="_blank">base class</a> implements standard algorithm steps and can provide a default implementation for custom steps. Specific subclasses provide concrete implementation for each of these steps.</p>
+<p>Template Method has the following <a href="/learn/step/6001" rel="noopener noreferrer nofollow" target="_blank">components</a>:</p>
+<ul><li><p><strong>Abstract Class</strong> describes primitive operations and the template method itself which calls primitive <a href="/learn/step/17081" rel="noopener noreferrer nofollow" target="_blank">operations</a>;</p></li><li><p><strong>Concrete Class</strong> implements the primitive operations.</p></li></ul>
+<p></p>
+<p style="text-align: center;"><picture><img alt="Template method pattern" height="378" src="https://ucarecdn.com/b7fd06ca-19e2-449f-aaa1-8aca2a787ddf/" width="589"/></picture></p>
+<p></p>
+<p>Template Method is quite popular in Java frameworks. Here are a few examples where it is used in core Java libraries:</p>
+<ul><li><p>All non-<a class="theory-lookup not-relevant" href="/learn/step/0" rel="noopener noreferrer nofollow" target="_blank" title="In Java, an abstract method is a method that is declared in an abstract class but does not contain an implementation. | It only includes a method signature, return type, and modifiers. The abstract keyword is used to declare an abstract method. Concrete subclasses of the abstract class must provide an implementation for these abstract methods. Since an abstract class cannot be instantiated, the purpose of an abstract method is to provide a common interface for its subclasses. If a class contains an abstract method, the class must be declared abstract as well.">abstract methods</a> of <code class="language-java">java.io.InputStream</code>, <code class="language-java">java.io.OutputStream</code>, <code class="language-java">java.io.Reader</code> and <code class="language-java">java.io.Writer</code></p></li><li><p>All non-abstract methods of <code class="language-java">java.util.AbstractList</code>, <code class="language-java">java.util.AbstractSet</code> and <code class="language-java">java.util.AbstractMap</code></p></li></ul>
+<h5 id="practice-example">Practice example</h5>
+<p>To demonstrate how the Template Method works, let's create an abstract class <code class="language-java">Worker</code> that describes the working routine. Then, let's add the template method:</p>
+<pre><code class="language-java">public abstract class Worker {
 
     public void work() {
         goToWork();
@@ -19,7 +34,10 @@
     }
 
     public abstract void workingProcess();
-}</code></pre><p></p><p>The common algorithm of actions is already determined. Now, we will create two <a href="/learn/step/19918" rel="noopener noreferrer nofollow" target="_blank">concrete classes</a>: <code class="language-java">Programmer</code><strong> </strong>and <code class="language-java">Actor</code><strong>:</strong></p><pre><code class="language-java">
+}</code></pre>
+<p></p>
+<p>The common algorithm of actions is already determined. Now, we will create two <a href="/learn/step/19918" rel="noopener noreferrer nofollow" target="_blank">concrete classes</a>: <code class="language-java">Programmer</code><strong> </strong>and <code class="language-java">Actor</code><strong>:</strong></p>
+<pre><code class="language-java">
 public class Programmer extends Worker {
 
     @Override
@@ -42,12 +60,18 @@ public class Actor extends Worker {
         System.out.println(" &gt; I play a role");
    }
 }
-</code></pre><p></p><p>In the <code class="language-java">TemplateMethodDemo</code> class we create programmer and actor instances and call the template method :</p><pre><code class="language-java">public class TemplateMethodDemo {
+</code></pre>
+<p></p>
+<p>In the <code class="language-java">TemplateMethodDemo</code> class we create programmer and actor instances and call the template method :</p>
+<pre><code class="language-java">public class TemplateMethodDemo {
     public static void main(String[] args) {
         Worker programmer = new Programmer();
         Worker actor = new Actor();
         programmer.work();
         actor.work();
     }
-}</code></pre><h5 id="conclusion">Conclusion</h5><p><strong>Template Method</strong> is applicable in the following cases:</p><ul><li><p>When the behavior of an algorithm can vary, you let subclasses implement the behavior through <a href="/learn/step/3539" rel="noopener noreferrer nofollow" target="_blank">overriding</a>;</p></li><li><p>When you want to avoid code duplication, implementing variations of the algorithm in subclasses;</p></li><li><p>When you want to allow easy subclassing so that users can extend the functionalities of your code without changing the original code.</p></li></ul>
+}</code></pre>
+<h5 id="conclusion">Conclusion</h5>
+<p><strong>Template Method</strong> is applicable in the following cases:</p>
+<ul><li><p>When the behavior of an algorithm can vary, you let subclasses implement the behavior through <a href="/learn/step/3539" rel="noopener noreferrer nofollow" target="_blank">overriding</a>;</p></li><li><p>When you want to avoid code duplication, implementing variations of the algorithm in subclasses;</p></li><li><p>When you want to allow easy subclassing so that users can <a class="theory-lookup not-relevant" href="/learn/step/0" rel="noopener noreferrer nofollow" target="_blank" title="In Java, the term extend is used in the context of inheritance and type bounds. | When used with a class, it indicates that the class is a subclass of the class it extends, inheriting its properties and methods. This is known as implementation inheritance and allows for code reuse and a hierarchical classification of objects. When used with a type parameter, extends sets an upper bound, meaning the type parameter can only be replaced by a type that is that upper bound or a subtype of it.">extend</a> the functionalities of your code without changing the original code.</p></li></ul>
 </div>
