@@ -26,3 +26,4 @@ content:
   - Optional
   - Function composition
   - Functional data processing with streams
+  - Stream filtering
