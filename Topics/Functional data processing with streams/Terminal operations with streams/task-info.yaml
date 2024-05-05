@@ -1,10 +1,12 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
 options:
-  - text: "int d = c : 10 ? a + b == c;"
-  - text: "int d = a + b == c ? c : a + b;"
-  - text: "int d = a + b == c ? 10 : c;"
-  - text: "int d = a + b != c ? 10 : c;"
+  - text: collect
+  - text: sorted
+  - text: flatMap
+  - text: max
+  - text: reduce
+  - text: limit
 files:
   - name: src/Task.java
     visible: true
@@ -17,7 +19,7 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/3268#comment
+feedback_link: https://hyperskill.org/learn/step/2380#comment
 status: Solved
 record: -1
 local_check: false
