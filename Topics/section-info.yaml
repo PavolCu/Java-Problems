@@ -28,3 +28,5 @@ content:
   - Functional data processing with streams
   - Stream filtering
   - Map and flatMap
+  - Default methods
+  - Reduction methods

@@ -1,0 +1,45 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      // Both interfaces 'Shape' and 'Colorable' need to be declared here
+      // Remember to add the default methods 'name()' and 'color()'
+      
+      
+      // Implement the interfaces in the 'Circle' class here
+      // Make sure to override the 'name()' method
+      
+      
+      // Create the 'ColoredCircle' class that extends 'Circle' and overrides 'color()'
+      
+      
+      // Finally, create a method that takes the string input and returns the name and color of the respective object
+      public class Main {
+      
+          // Add your method here
+      
+          public static void main(String[] args) {
+              // Use this main method for testing your implementation
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41637#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 2. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    Circle
+    Correct output:
+    Circle
+    No Color
+
+    Your code output:
+    true
+  time: "Sun, 05 May 2024 19:25:48 UTC"
+record: -1
+submission_language: java17
