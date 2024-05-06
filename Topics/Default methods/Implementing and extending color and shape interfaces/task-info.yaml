@@ -25,21 +25,9 @@ files:
       }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/41637#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #1 of 2. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    Circle
-    Correct output:
-    Circle
-    No Color
-
-    Your code output:
-    true
-  time: "Sun, 05 May 2024 19:25:48 UTC"
+  message: <html>Correct solution</html>
+  time: "Mon, 06 May 2024 20:01:56 UTC"
 record: -1
 submission_language: java17
