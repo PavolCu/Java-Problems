@@ -17,7 +17,8 @@ class CollectorProduct {
         }
 
         long val = numbers.stream().collect(
-                    // Write your collector here
+                // Write your collector here
+                Collectors.reducing(1, n -> n * n, (a, b) -> a * b)
                 );
 
         System.out.println(val);
