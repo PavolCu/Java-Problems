@@ -7,3 +7,6 @@ content:
   - Subtracting hours and adding minutes
   - Same date and time
   - The passed hours since the beginning of year
+  - Merging date-time instances
+  - Methods of LocalDateTime
+  - Create LocalDateTime
