@@ -17,6 +17,9 @@
             <option value="$PROJECT_DIR$/Topics/Abstract factory/Phone factory" />
             <option value="$PROJECT_DIR$/Topics/Abstract factory/Theory" />
             <option value="$PROJECT_DIR$/Topics/Abstract factory/What does the pattern do" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/ASCII Art" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Command/Forex Broker" />
             <option value="$PROJECT_DIR$/Topics/Command/Participants" />
             <option value="$PROJECT_DIR$/Topics/Command/Real-world examples" />
@@ -59,6 +62,7 @@
             <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Shapes" />
             <option value="$PROJECT_DIR$/Topics/Encapsulating object creation/Theory" />
             <option value="$PROJECT_DIR$/Topics/Factory method/Burger store" />
+            <option value="$PROJECT_DIR$/Topics/Factory method/Clocks" />
             <option value="$PROJECT_DIR$/Topics/Factory method/Robot" />
             <option value="$PROJECT_DIR$/Topics/Factory method/Robot factory" />
             <option value="$PROJECT_DIR$/Topics/Factory method/The purpose of the pattern" />
@@ -103,10 +107,12 @@
             <option value="$PROJECT_DIR$/Topics/Inner classes/Why do we need inner classes" />
             <option value="$PROJECT_DIR$/Topics/Instant/The Instant to a long" />
             <option value="$PROJECT_DIR$/Topics/Instant/Theory" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/10 days before" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/2 weeks after" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/30 years before and after" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Convert numbers to days" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/LocalDate class" />
+            <option value="$PROJECT_DIR$/Topics/LocalDate/Methods of LocalDate" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Representing a date" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/Similar date" />
             <option value="$PROJECT_DIR$/Topics/LocalDate/The n-th day from the end of a month" />

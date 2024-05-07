@@ -30,3 +30,4 @@ content:
   - Map and flatMap
   - Default methods
   - Reduction methods
+  - Collectors
