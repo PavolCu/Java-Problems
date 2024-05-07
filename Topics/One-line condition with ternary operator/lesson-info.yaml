@@ -11,3 +11,4 @@ content:
   - Correct general syntax
   - Given two variables
   - What is the result
+  - "Categorize integer as positive, negative, or zero"

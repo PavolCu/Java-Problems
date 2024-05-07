@@ -9,6 +9,10 @@ public class Main {
         // Read input
         int num = scanner.nextInt();
 
-        // Put your code with ternary operator here
+            // Put your code with ternary operator here
+
+        String result = (num == 10) ? "Equal" : "Not Equal";
+        System.out.println(result);
+
     }
 }
