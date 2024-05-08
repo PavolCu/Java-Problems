@@ -104,6 +104,10 @@
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code" />
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/The result of the code (1)" />
             <option value="$PROJECT_DIR$/Topics/Generics and Reflection/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Grouping numbers" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Palindrome or not" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Splitting data with a collector" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/A bow and a cat" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/Christmas tree" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/Improve your vehicle" />
@@ -128,7 +132,10 @@
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Add 11 hours and print the date" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Add days and subtract hours" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Adding N minutes" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Create LocalDateTime" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/LocalDateTime class" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Merging date-time instances" />
+            <option value="$PROJECT_DIR$/Topics/LocalDateTime/Methods of LocalDateTime" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Same date and time" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/Subtracting hours and adding minutes" />
             <option value="$PROJECT_DIR$/Topics/LocalDateTime/The passed hours since the beginning of year" />
@@ -171,6 +178,7 @@
             <option value="$PROJECT_DIR$/Topics/Nested classes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Nested classes/To be static or not to be" />
             <option value="$PROJECT_DIR$/Topics/Nested classes/Who has the power to create ME" />
+            <option value="$PROJECT_DIR$/Topics/One-line condition with ternary operator/Categorize integer as positive, negative, or zero" />
             <option value="$PROJECT_DIR$/Topics/One-line condition with ternary operator/Check if a given number is equal to 10" />
             <option value="$PROJECT_DIR$/Topics/One-line condition with ternary operator/Correct general syntax" />
             <option value="$PROJECT_DIR$/Topics/One-line condition with ternary operator/Determining if an integer is odd or even" />
@@ -203,9 +211,13 @@
             <option value="$PROJECT_DIR$/Topics/Reduction methods/Sum of divisors" />
             <option value="$PROJECT_DIR$/Topics/Reduction methods/The count operation" />
             <option value="$PROJECT_DIR$/Topics/Reduction methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/.class Syntax" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Class object test" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Class retrieval" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Class retrieval (1)" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Code output" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Getting Superclass" />
+            <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Retrieve class name" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Select statements" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/Theory" />
             <option value="$PROJECT_DIR$/Topics/Retrieving Class instances/forName method syntax" />

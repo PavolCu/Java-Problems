@@ -31,3 +31,4 @@ content:
   - Default methods
   - Reduction methods
   - Collectors
+  - Grouping collectors
