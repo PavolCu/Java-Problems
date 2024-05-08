@@ -3,3 +3,7 @@ content:
   - Splitting data with a collector
   - Grouping numbers
   - Palindrome or not
+  - Counting clicks
+  - Map keys
+  - Downstream collectors
+  - Teeing collector
