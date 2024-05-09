@@ -1,5 +1,4 @@
-type: choice
-is_multiple_choice: false
+type: theory
 files:
   - name: src/Task.java
     visible: true
@@ -12,7 +11,7 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8435#comment
+feedback_link: https://hyperskill.org/learn/step/10180#comment
 status: Solved
 record: -1
-local_check: false
+post_submission_on_open: true

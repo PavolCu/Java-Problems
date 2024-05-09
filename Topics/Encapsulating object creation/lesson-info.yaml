@@ -6,3 +6,5 @@ content:
   - Select statements
   - Motor static factory
   - Shapes
+  - Factories and their clients
+  - Static factory methods for Time

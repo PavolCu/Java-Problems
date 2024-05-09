@@ -32,3 +32,4 @@ content:
   - Reduction methods
   - Collectors
   - Grouping collectors
+  - Infinite streams

@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: count
+  - text: max
+  - text: forEach
+  - text: findAny
 files:
   - name: src/Task.java
     visible: true
@@ -12,7 +17,8 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8435#comment
+feedback_link: https://hyperskill.org/learn/step/10183#comment
 status: Solved
 record: -1
+custom_name: Making a stream finite
 local_check: false

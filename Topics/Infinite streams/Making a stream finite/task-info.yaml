@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: filter
+  - text: limit
+  - text: skip
+  - text: cut
 files:
   - name: src/Task.java
     visible: true
@@ -12,7 +17,7 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8435#comment
+feedback_link: https://hyperskill.org/learn/step/10182#comment
 status: Solved
 record: -1
 local_check: false
