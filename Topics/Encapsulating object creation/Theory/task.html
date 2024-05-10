@@ -57,7 +57,7 @@ class Laptop extends Computer {
 <p>There are several possible implementation features:</p>
 <ul><li><p>the method <code class="language-java">newInstance</code> of <code class="language-java">ComputerStaticFactory</code> takes an enum type to restrict possible values;</p></li><li><p>the method <code class="language-java">newInstance</code> throws an exception if an unsuitable type is passed instead of returning <code class="language-java">null</code>;</p></li><li><p>move the method <code class="language-java">newInstance</code> directly to the base of the hierarchy: <code class="language-java">Computer</code> class;</p></li><li><p>a factory can have multiple methods that produce instances of different classes or an instance of a default class.</p></li></ul>
 <h5 id="simple-factory-idiom">Simple factory idiom</h5>
-<p>The simple <a class="theory-lookup not-relevant" href="/learn/step/0" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a factory idiom refers to a technique of encapsulating object creation code in a separate class, known as a factory. | The factory has a method that takes the type of the required object as a parameter and returns a suitable instance to the client code. The two commonly used factory idioms are static factory and simple factory.">factory idioms</a> differ from the static factory because the method for creating objects is non-static.</p>
+<p>The simple factory idioms differ from the static factory because the method for creating objects is non-static.</p>
 <pre><code class="language-java">class ComputerFactory {
     
     // it may contain some fields

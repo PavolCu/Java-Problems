@@ -33,3 +33,4 @@ content:
   - Collectors
   - Grouping collectors
   - Infinite streams
+  - Taking elements
