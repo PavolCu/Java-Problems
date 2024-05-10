@@ -34,3 +34,4 @@ content:
   - Grouping collectors
   - Infinite streams
   - Taking elements
+  - Streams of primitives
