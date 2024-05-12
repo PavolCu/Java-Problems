@@ -51,6 +51,8 @@
             <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/Modifiers support" />
             <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/Storing modifiers" />
             <option value="$PROJECT_DIR$/Topics/Dealing with modifiers/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Decorator/Pizza Decorator" />
+            <option value="$PROJECT_DIR$/Topics/Decorator/Theory" />
             <option value="$PROJECT_DIR$/Topics/Default methods/Add new default method" />
             <option value="$PROJECT_DIR$/Topics/Default methods/Default method's body" />
             <option value="$PROJECT_DIR$/Topics/Default methods/Diamond problem" />
@@ -214,7 +216,11 @@
             <option value="$PROJECT_DIR$/Topics/Optional/Theory" />
             <option value="$PROJECT_DIR$/Topics/Optional/What is Optional" />
             <option value="$PROJECT_DIR$/Topics/Parallel streams/Fix the sorting order" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Getting the greater speedup" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Inverting streams" />
             <option value="$PROJECT_DIR$/Topics/Parallel streams/Myths and facts" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Prime numbers" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/The ordered sequence" />
             <option value="$PROJECT_DIR$/Topics/Parallel streams/Theory" />
             <option value="$PROJECT_DIR$/Topics/Period and Duration classes/The correct Duration unit" />
             <option value="$PROJECT_DIR$/Topics/Period and Duration classes/The correct Period unit" />

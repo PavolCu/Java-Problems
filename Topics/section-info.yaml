@@ -37,3 +37,4 @@ content:
   - Streams of primitives
   - Stream pipelines
   - Parallel streams
+  - Decorator
