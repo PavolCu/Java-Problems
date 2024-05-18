@@ -2,21 +2,6 @@ type: code
 files:
   - name: src/Main.java
     visible: true
-    text: |-
-      import java.util.Scanner;
-      
-      public class Main {
-          public static void main(String[] args) {
-              Scanner scanner = new Scanner(System.in);
-      
-              // Read the integer input
-              int num = scanner.nextInt();
-      
-              // Use a ternary operator to check if the integer is positive, negative or zero
-              // and print the corresponding message
-      
-          }
-      }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/46914#comment
 status: Unchecked

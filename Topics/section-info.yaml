@@ -38,3 +38,4 @@ content:
   - Stream pipelines
   - Parallel streams
   - Decorator
+  - Facade

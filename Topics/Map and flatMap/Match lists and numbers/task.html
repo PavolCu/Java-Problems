@@ -1,4 +1,3 @@
-<h2>Match lists and numbers</h2>
 <div class="step-text">
 <p>You have a list <b>numbers</b>:<b></b></p><pre><code class="language-java">List&lt;Integer&gt; numbers = Stream.of(1, 2, 3, 4, 5).collect(Collectors.toList());</code></pre><p>What numbers does the list <b>generated </b>contain?</p><p><b></b>a)<b></b></p><p><b></b></p><pre><code class="language-java">List&lt;Integer&gt; generated = numbers.stream()
         .flatMap(n -&gt; Stream.generate(() -&gt; n).limit(n))

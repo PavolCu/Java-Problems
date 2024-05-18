@@ -3,17 +3,6 @@ files:
   - name: src/Main.java
     visible: true
     highlight_level: NONE
-    text: |-
-      class SuperClassGetter {
-      
-          public Class getSuperClassByName(String name) throws ClassNotFoundException {
-              // write your code here
-          }
-      
-          public Class getSuperClassByInstance(Object object) {
-              // write your code here
-          }
-      }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/9950#comment
 status: Solved

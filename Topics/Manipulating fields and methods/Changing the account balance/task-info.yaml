@@ -3,15 +3,6 @@ files:
   - name: src/Main.java
     visible: true
     highlight_level: NONE
-    text: |-
-      final class AccountUtils {
-      
-          private AccountUtils() { }
-      
-          public static void increaseBalance(Account account, long amount) {
-              // write your code here
-          }
-      }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12552#comment
 status: Solved

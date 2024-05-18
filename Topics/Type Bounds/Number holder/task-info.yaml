@@ -3,18 +3,6 @@ files:
   - name: src/Main.java
     visible: true
     highlight_level: NONE
-    text: |-
-      class Holder<T> {
-          private T value;
-      
-          public void setValue(T value) {
-              this.value = value;
-          }
-      
-          public T getValue() {
-              return value;
-          }
-      }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11026#comment
 status: Solved

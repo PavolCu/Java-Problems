@@ -4,9 +4,6 @@ files:
   - name: src/Main.java
     visible: true
     highlight_level: NONE
-    text: "// Do not remove imports\nimport java.util.Scanner;\n\nclass TypeVariablesInspector\
-    \ {\n    public void printTypeVariablesCount(TestClass obj, String methodName)\
-    \ throws Exception {\n        // Add implementation here \n    }\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11184#comment
 status: Solved
