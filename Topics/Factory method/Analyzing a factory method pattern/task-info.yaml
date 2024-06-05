@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The Factory Method Pattern creates new instances by copying a prototype instance.
+  - text: CircleFactory and SquareFactory are Concrete Creators implementing the Factory
+      method declared in the abstract ShapeFactory Creator class.
+  - text: "Since createShape() method in ShapeFactory class is abstract, it forces all\
+    \ the subclasses to provide their own implementations for creating objects, thereby\
+    \ encapsulating object creation."
+  - text: "There&#x27;s a violation of the Factory Method pattern, as Concrete Creators\
+    \ should not return specific concrete product instances, but should stick to returning\
+    \ the abstract product type."
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/34738#comment
+status: Solved
+record: -1
+local_check: false
