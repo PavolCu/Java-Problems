@@ -10,3 +10,5 @@ content:
   - The n-th day from the end of a month
   - 10 days before
   - Methods of LocalDate
+  - Find all mondays
+  - The first and the last day of a month

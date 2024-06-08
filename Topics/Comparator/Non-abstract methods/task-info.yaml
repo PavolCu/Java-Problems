@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
+  - text: comparingString
   - text: compare
-  - text: comparingInt
   - text: reverseOrder
   - text: naturalOrder
-  - text: comparingString
+  - text: comparingInt
 files:
   - name: src/Task.java
     visible: true
