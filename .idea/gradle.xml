@@ -129,9 +129,13 @@
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Grouping numbers" />
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Map keys" />
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Palindrome or not" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Partinioning and summing numbers" />
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Splitting data with a collector" />
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Teeing collector" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Teeing collector features" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/The total sum of transaction by each account" />
             <option value="$PROJECT_DIR$/Topics/Grouping collectors/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/groupingBy parameters" />
             <option value="$PROJECT_DIR$/Topics/Infinite streams/Generating cats" />
             <option value="$PROJECT_DIR$/Topics/Infinite streams/Making a stream finite" />
             <option value="$PROJECT_DIR$/Topics/Infinite streams/Making a stream finite (1)" />

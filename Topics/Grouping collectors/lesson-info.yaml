@@ -7,3 +7,7 @@ content:
   - Map keys
   - Downstream collectors
   - Teeing collector
+  - Partinioning and summing numbers
+  - The total sum of transaction by each account
+  - groupingBy parameters
+  - Teeing collector features
