@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "Function&lt;String, String&gt;"
+  - text: Predicate&lt;String&gt;
+  - text: "Function&lt;Boolean, String&gt;"
+  - text: "Function&lt;String, Boolean&gt;"
+  - text: "BiPredicate&lt;String, Boolean&gt;"
+  - text: UnaryOperator&lt;String&gt;
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2393#comment
+status: Solved
+record: -1
+local_check: false

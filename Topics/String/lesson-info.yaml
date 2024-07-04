@@ -1,0 +1,16 @@
+content:
+  - Theory
+  - Extracting a specific character from a greeting message
+  - Extracting the first character from a string
+  - ' Hello  string'
+  - Calling basic methods
+  - Appending strings and ints
+  - Extracting a substring
+  - Check prefix ignoring the case
+  - Check burgs
+  - Replacing 'a' with 'b'
+  - Comparing strings ignoring whitespaces
+  - Extracting a character
+  - Operations with strings
+  - Operations with substrings
+  - Comparing strings
