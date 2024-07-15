@@ -44,3 +44,5 @@ content:
   - String
   - Referencing subclass objects
   - Introduction to generic programming
+  - Instance methods
+  - Processing strings

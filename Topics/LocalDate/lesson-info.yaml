@@ -12,3 +12,5 @@ content:
   - Methods of LocalDate
   - Find all mondays
   - The first and the last day of a month
+  - Leap Year Check  A Date's True Colors
+  - Print dates of a year with an offset

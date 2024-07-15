@@ -32,7 +32,7 @@
 <p>This code works perfectly because the <code class="language-java">findAny</code> method causes only one element to be generated. It doesn't try to create the whole infinite stream.</p>
 <h5 id="iterations">Iterations</h5>
 <p>The second method we consider is <code class="language-java">iterate</code>. It is a complete alternative to standard loops.</p>
-<p>It takes a starting value (a <strong>seed</strong>) and an <strong>operator function</strong> to generate the next value based on the previous one.</p>
+<p>It takes a starting value (a <strong><a class="theory-lookup not-relevant" href="/learn/step/10180" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a seed is a starting point for generating a sequence of pseudorandom numbers. | It is used in the `Random` class to generate predictable, yet seemingly random numbers. When a `Random` object is created, it can be initialized with a seed, which can be explicitly set or automatically generated using the current system time. If the same seed is used, the same sequence of pseudorandom numbers will be produced, making them predictable. This feature is useful in many applications such as simulations, games, and cryptography where truly random numbers are not required.">seed</a></strong>) and an <strong>operator function</strong> to generate the next value based on the previous one.</p>
 <pre><code class="language-java">Stream&lt;T&gt; iterate(T seed, UnaryOperator&lt;T&gt; next)</code></pre>
 <p>As an example, here is an infinite stream of odd numbers:</p>
 <pre><code class="language-java">Stream&lt;Integer&gt; oddNumbersStream = Stream.iterate(1, x -&gt; x + 2); // 1, 3, 5, ...</code></pre>
