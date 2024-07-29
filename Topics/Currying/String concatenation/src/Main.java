@@ -7,6 +7,7 @@ class CurryConcat {
 
         Function<String, Function<String, Function<String, String>>> stringFun = 
                 // write your code here
+                a -> b -> c -> a.toLowerCase() + c.toUpperCase() + b.toLowerCase();
 
         return stringFun.apply(first).apply(second).apply(third);
     }
