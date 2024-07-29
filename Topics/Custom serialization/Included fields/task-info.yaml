@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: public transient int i;
+  - text: 'public static int i; '
+  - text: private final int i;
+  - text: volatile transient final int i;
+  - text: public final int i;
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2823#comment
+status: Solved
+record: -1
+local_check: false

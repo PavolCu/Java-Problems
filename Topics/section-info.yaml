@@ -46,3 +46,5 @@ content:
   - Introduction to generic programming
   - Instance methods
   - Processing strings
+  - Custom serialization
+  - Currying
