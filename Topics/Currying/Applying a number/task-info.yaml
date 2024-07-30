@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: LongFunction&lt;LongFunction&lt;Long&gt;&gt;
+  - text: CurriedLongFunction
+  - text: Long
+  - text: LongFunction&lt;Long&gt;
+  - text: Function&lt;Long&gt;
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2428#comment
+status: Unchecked
+record: -1
+local_check: false
