@@ -6,3 +6,5 @@ content:
   - String concatenation
   - Reducer operator
   - Applying a number
+  - Multifunctional mapper
+  - Types of a curried function

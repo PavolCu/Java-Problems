@@ -48,3 +48,6 @@ content:
   - Processing strings
   - Custom serialization
   - Currying
+  - Method overriding
+  - CopyOnWriteArrayList
+  - Data Transfer Object in Spring

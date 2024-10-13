@@ -2,8 +2,8 @@ type: choice
 is_multiple_choice: false
 options:
   - text: Divide and rule — all fields and methods of an outer class
-  - text: All fileds and methods of an outer class that are not private
   - text: All static members of an outer class
+  - text: All fields and methods of an outer class that are not private
   - text: Only instance fields and methods of an outer class
 files:
   - name: src/Task.java

@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A member of the <code>java.util.concurrent</code> package.
+  - text: A subclass of <code>ArrayList</code>.
+  - text: A classic <code>ArrayList</code> but faster.
+  - text: A thread-safe representation of the <code>ArrayList</code> class.
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20769#comment
+status: Solved
+record: -1
+local_check: false

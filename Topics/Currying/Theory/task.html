@@ -22,7 +22,7 @@ long sumWithCoefficient = sumF(x -&gt; x * 2).applyAsInt(10, 11);
 
 // sum of two cubes: 3 * 3 * 3 + 8 * 8 * 8 = 539
 long sumOfCubes = sumF(x -&gt; x * x * x).applyAsInt(3, 8);</code></pre>
-<p>As you can see, the possibility of returning functions provides an easy way to build complex and generalized functions.</p>
+<p>As you can see, the possibility of <a class="theory-lookup not-relevant" href="/learn/step/3579" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a returning function is a function that returns another function as its result. | This allows for a style of programming called currying, where arguments are passed to a function one by one, and an intermediate result is obtained. This is a more advanced technique and is useful to be aware of, as it allows for functions to be considered as objects that can be accepted as arguments and returned as values. A returning function can be used in place of a curried function, which is a function that returns a function with a subset of its arguments already specified.">returning functions</a> provides an easy way to build complex and generalized functions.</p>
 <h5 id="currying-functions">Currying functions</h5>
 <p><strong>Currying</strong> is a technique for translating the evaluation of a function that takes multiple parameters into evaluating a sequence of functions, each with a single argument. The technique is named after mathematician <a href="https://en.wikipedia.org/wiki/Haskell_Curry" rel="noopener noreferrer nofollow" target="_blank">Haskell Curry</a> who originally developed it. Let's see how to use it in Java.</p>
 <p>First, let's compare a regular function and a curried function:</p>

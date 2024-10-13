@@ -10,3 +10,4 @@ content:
   - Merging date-time instances
   - Methods of LocalDateTime
   - Create LocalDateTime
+  - Whole hours between two date-time pairs

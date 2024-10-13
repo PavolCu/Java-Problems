@@ -1,0 +1,28 @@
+<div class="step-text">
+<p></p>
+<p>What will be the size of the <code class="language-java">onWriteArrayList</code>?</p>
+<pre><code class="language-java">public static void main(String[] args) throws InterruptedException {
+    CopyOnWriteArrayList&lt;Integer&gt; onWriteArrayList = new CopyOnWriteArrayList&lt;&gt;();
+
+    onWriteArrayList.add(-1);
+    onWriteArrayList.add(-2);
+    onWriteArrayList.add(-3);
+
+    Thread writer = new Thread(() -&gt; addNumbers(onWriteArrayList));
+    writer.start();
+
+    for (int i = -4; i &gt; -10; i--) { // from the main thread
+        onWriteArrayList.add(i);
+    }
+
+    writer.join(); // wait for writer thread to finish
+
+    System.out.println(onWriteArrayList.size());
+}
+
+private static void addNumbers(CopyOnWriteArrayList&lt;Integer&gt; list) {
+    for (int i = 0; i &lt; 100_000; i++) {
+        list.add(i);
+    }
+}</code></pre>
+</div>

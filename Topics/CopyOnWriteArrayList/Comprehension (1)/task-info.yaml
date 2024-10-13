@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 100009
+  - text: 100011
+  - text: 100000
+  - text: 100003
+  - text: 100010
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20774#comment
+status: Solved
+record: -1
+custom_name: Comprehension
+local_check: false

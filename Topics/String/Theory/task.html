@@ -19,7 +19,7 @@ String s = "s"; // a string consisting of one character
 </code></pre>
 <p>A string can be <code class="language-java">null</code>. It means no value was assigned.</p>
 <pre><code class="language-java">String nullString = null; // it is null</code></pre>
-<p>Another way to create a <a class="theory-lookup not-relevant" href="/learn/step/3523" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a variable is a named storage location that is used to store a value of a specific type. | It is declared with a specific data type, which determines the kind of value that can be stored in it. Every variable has a unique name, also known as an identifier, which is used to access its value. Variables can be declared and initialized in a single statement, and their value can be accessed and modified using the name. It's important to note that variables can be changed, meaning you can assign a new value to a variable without having to declare it again.">variable</a> of  <code class="language-java">String</code> is by using the keyword <code class="language-java">new</code>.</p>
+<p>Another way to create a <a class="theory-lookup not-relevant" href="/learn/step/3523" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a variable is a named storage location that is used to store a value of a specific type. | It is declared with a specific data type, which determines the kind of value that can be stored in it. Every variable has a unique name, also known as an identifier, which is used to access its value. Variables can be declared and initialized in a single statement, and their value can be accessed and modified using the name. It's important to note that variables can be changed, meaning you can assign a new value to a variable without having to declare it again.">variable</a> of <code class="language-java">String</code> is by using the keyword <code class="language-java">new</code>.</p>
 <pre><code class="language-java">String str = new String("my-string"); // it creates an object and assigns it to the variable</code></pre>
 <p>Any string has two useful methods:</p>
 <ul><li><p><code class="language-java">length()</code> returns the number of characters in the string;</p></li><li><p><code class="language-java">charAt(int index)</code> returns a character by its index;</p></li></ul>
@@ -33,16 +33,10 @@ char theFirstChar = s.charAt(0);  // 'H' has the index 0
 char theFifthChar = s.charAt(4); // 'a' has the index 4
 
 char theLastChar = s.charAt(s.length() - 1); // 'l' has the index 6</code></pre>
-<p> </p>
-<p> </p>
-<p></p>
-<div class="alert alert-warning"><p></p><p>You can easily get a character of a string by the index, but you can't change characters because strings are immutable in Java.</p><p></p></div>
-<p></p>
-<p> </p>
-<p> </p>
+<div class="alert alert-warning"><p>You can easily get a character of a string by the index, but you can't change characters because strings are immutable in Java.</p></div>
 <h5 id="useful-methods-of-strings">Useful methods of strings</h5>
 <p>The standard library of Java provides a lot of useful methods for processing strings:</p>
-<ul><li><p><code class="language-java">isEmpty()</code> returns <code class="language-java">true</code> if the string is empty, otherwise – <code class="language-java">false</code>;</p></li><li><p><code class="language-java">toUpperCase()</code> returns a new string in uppercase;</p></li><li><p><code class="language-java">toLowerCase()</code> returns a new string in lowercase;</p></li><li><p><code class="language-java">startsWith(prefix)</code> returns <code class="language-java">true</code> if the string starts with the given string prefix, otherwise, <code class="language-java">false</code>;</p></li><li><p><code class="language-java">endsWith(suffix)</code> returns <code class="language-java">true</code> if the string ends with the given string suffix, otherwise, <code class="language-java">false</code>.</p></li><li><p><code class="language-java">contains(...)</code> returns <code class="language-java">true</code> if the string contains the given string or character;</p></li><li><p><code class="language-java">substring(beginIndex, endIndex)</code> returns a substring of the string in the range: <code class="language-java">beginIndex</code>, <code class="language-java">endIndex - 1</code>;</p></li><li><p><code class="language-java">replace(old, new)</code> returns a new string obtained by replacing all occurrences of <code class="language-java">old</code> with <code class="language-java">new</code> that can be chars or strings.</p></li><li><p><code class="language-java">trim()</code> returns a copy of the string obtained by omitting the leading and trailing whitespace. Note that whitespace includes not only the space character, but mostly everything that looks empty: tab, carriage return, <a class="theory-lookup not-relevant" href="/learn/step/3523" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a newline is a type of whitespace character that is created when you press the enter key and start a new line. | It is essentially a character that represents the end of a line of text. Whitespace in Java includes not just the space character, but also tabs, newline characters, and other non-printing characters. When you use the `println()` method to display a string followed by a new line on the screen, the newline character is what causes the cursor to move down to the next line.">newline</a> character, etc.</p></li></ul>
+<ul><li><p><code class="language-java">isEmpty()</code> returns <code class="language-java">true</code> if the string is empty, otherwise – <code class="language-java">false</code>;</p></li><li><p><code class="language-java">toUpperCase()</code> returns a new string in uppercase;</p></li><li><p><code class="language-java">toLowerCase()</code> returns a new string in lowercase;</p></li><li><p><code class="language-java">startsWith(prefix)</code> returns <code class="language-java">true</code> if the string starts with the given string prefix, otherwise, <code class="language-java">false</code>;</p></li><li><p><code class="language-java">endsWith(suffix)</code> returns <code class="language-java">true</code> if the string ends with the given string suffix, otherwise, <code class="language-java">false</code>.</p></li><li><p><code class="language-java">contains(...)</code> returns <code class="language-java">true</code> if the string contains the given string or character;</p></li><li><p><code class="language-java">substring(beginIndex, endIndex)</code> returns a substring of the string in the range: <code class="language-java">beginIndex</code>, <code class="language-java">endIndex - 1</code>;</p></li><li><p><code class="language-java">replace(old, new)</code> returns a new string obtained by replacing all occurrences of <code class="language-java">old</code> with <code class="language-java">new</code> that can be chars or strings.</p></li><li><p><code class="language-java">replaceAll(old, new)</code> returns a new string obtained by replacing all occurrences of <code class="language-java">old</code> with <code class="language-java">new</code>, where <code class="language-java">old</code> is not a string or char but a regular expression.</p></li><li><p><code class="language-java">trim()</code> returns a copy of the string obtained by omitting the leading and trailing whitespace. Note that whitespace includes not only the space character, but mostly everything that looks empty: tab, carriage return, newline character, etc.</p></li></ul>
 <p>See the following example to better understand these methods:</p>
 <pre><code class="language-java">String text = "The simple text string";
 
@@ -52,8 +46,11 @@ String textInUpperCase = text.toUpperCase(); // "THE SIMPLE TEXT STRING"
 
 boolean startsWith = textInUpperCase.startsWith("THE"); // true
 
-/* replace all space characters with empty strings */
+/* Replace all space characters with empty strings */
 String noSpaces = textInUpperCase.replace(" ", ""); // "THESIMPLETEXTSTRING"
+
+// Replace all space characters with "_"
+String phoneNumber = text.replaceAll(" ", "_"); // "The_simple_text_string"
 
 String textWithWhitespaces = "\t text with whitespaces   !\n  \t";
 
@@ -81,9 +78,11 @@ String fullName2 = firstName.concat(" ").concat(lastName); // "John Smith"</code
 <p>When we concatenate two strings a new string is created (because strings are <strong>immutable</strong>).</p>
 <p> </p>
 <p> </p>
+<p> </p>
 <p></p>
-<div class="alert alert-warning"><p></p><p><strong>Important: </strong>in the general case <code class="language-java">str1 + str2</code> is not the same as <code class="language-java">str2 + str1</code> because concatenation is not a commutative operation.</p><p></p></div>
+<div class="alert alert-warning"><p></p><p> </p><p><strong>Important: </strong>in the general case <code class="language-java">str1 + str2</code> is not the same as <code class="language-java">str2 + str1</code> because concatenation is not a commutative operation.</p><p> </p><p></p></div>
 <p></p>
+<p> </p>
 <p> </p>
 <p> </p>
 <p>It's possible to add values of different types to a string. The value will be automatically converted to a string. See an example below.</p>
